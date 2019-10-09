@@ -1,38 +1,30 @@
 {
-"jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Reference",
-    "id": {
-        "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
-        "version": 0,
-        "typeName": "ResearchPaperMachineLearning",
-        "state": "ACTIVE"
-    },
+	"entity": 
+	{
     "typeName": "ResearchPaperMachineLearning",
-    "values": {
+    "attributes": 
+    {
      "startTime" : "2017-03-26T20:20:13.675Z",
      "endTime" : "2017-03-26T20:27:23.675Z",
      "userName" : "hdpdev-edm-appuser-recom",
      "operationType" : "DecisionTreeAndRegression",
      "clusterName" : "turing",
-     "queryGraph" : null,
+     "queryGraph" : "NULL",
      "inputs": [{
-                  "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
-                  "id": "40dc03dc-16d6-4281-826d-c4884cd1dad5",
-                  "version": 0,
-                  "typeName": "ResearchPaperAccessDataset",
-                  "state": "ACTIVE"
+                  "guid": "c00a97ef-f584-4a95-bef5-80c597fcae35",
+                   "typeName": "ResearchPaperAccessDataset",
+                   "state": "ACTIVE"
+                 
               }],
      "outputs": [{
-                  "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
-                  "id": "43b6da13-31ee-4bbe-980e-84ed4b759f11",
-                  "version": 0,
+                  "guid": "10110ce8-e1b9-4cef-b2d9-7d17489033be",
                   "typeName": "ResearchPaperRecommendationResults",
                   "state": "ACTIVE"
               }],
-     "qualifiedName": "ResearchPaperMachineLearning.ML_Iteration567019",
-     "name":"ML_Iteration567019",
-     "description":"ML_Iteration567019 For GeoThermal DataSets",
+     "qualifiedName": "ResearchPaperMachineLearning.ML_Iteration3",
+     "name":"ML_Iteration_3",
+     "description":"ML_Iteration3 For GeoThermal DataSets",
      "owner": "EDM_RANDD"
-     },
-    "traitNames": [],
-    "traits": {}
+     }
+    }
 }

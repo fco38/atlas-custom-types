@@ -1,45 +1,38 @@
-{
-    "enumTypes": [],
-    "structTypes": [],
-    "traitTypes": [],
-    "classTypes": [{
+{    
+	"entityDefs": [
+		{
         "superTypes": ["DataSet"],
-        "hierarchicalMetaTypeName": "org.apache.atlas.typesystem.types.ClassType",
-        "typeName": "ResearchPaperRecommendationResults",
-        "typeDescription": null,
+        "name": "ResearchPaperRecommendationResults",
+        "category": "ENTITY",
         "attributeDefinitions": [{
             "name": "recommendationsResultsetID",
-            "dataTypeName": "int",
+            "typeName": "int",
             "multiplicity": "required",
             "isComposite": false,
             "isUnique": false,
-            "isIndexable": true,
-            "reverseAttributeName": null
+            "isIndexable": true
         },{
             "name": "researchArea",
-            "dataTypeName": "string",
+            "typeName": "string",
             "multiplicity": "required",
             "isComposite": false,
             "isUnique": false,
-            "isIndexable": true,
-            "reverseAttributeName": null
+            "isIndexable": true
         },{
             "name": "createTime",
-            "dataTypeName": "date",
+            "typeName": "date",
             "multiplicity": "required",
             "isComposite": false,
             "isUnique": false,
-            "isIndexable": true,
-            "reverseAttributeName": null
+            "isIndexable": true
         },
         {
             "name": "hdfsDestination",
-            "dataTypeName": "string",
+            "typeName": "string",
             "multiplicity": "required",
             "isComposite": false,
             "isUnique": false,
-            "isIndexable": true,
-            "reverseAttributeName": null
+            "isIndexable": true
         }]
     }]
 }
